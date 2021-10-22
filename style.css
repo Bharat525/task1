@@ -115,18 +115,11 @@ p {
 
   header {
     width: 100%;
-  }
-
-  .header-container  .btn1{
-    display: none;
-  }
-
-  .container {
-    justify-content: center;
-  }
-
-  header {
     text-align: center;
+  }
+
+  .header-container .btn1 {
+    display: none;
   }
 
   .heading2 p {
@@ -142,9 +135,7 @@ p {
   }
 }
 
-
-
-.fromteam .img {
+.team-container .img {
   text-align: center;
   margin-top: 2rem;
 }
