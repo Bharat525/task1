@@ -23,6 +23,16 @@ header {
   justify-content: space-between;
 }
 
+
+.logo{
+  object-fit: cover;
+}
+
+.logo img{
+  width: 200px;
+  
+}
+
 .btn {
   border-radius: 50px;
   padding: 8px 40px;
@@ -35,10 +45,7 @@ header {
     rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
-.container .logo {
-  height: 40px;
-  width: 40px;
-}
+
 
 .container img {
   object-fit: cover;
@@ -47,6 +54,12 @@ header {
 
 .heading {
   text-align: center;
+}
+
+.heading h3{
+margin-top:10px;
+margin-bottom: 10px;
+
 }
 
 .heading h2 {
@@ -103,10 +116,7 @@ p {
     display: none;
   }
 
-  .container .logo {
-    height: auto;
-    width: auto;
-  }
+ 
 
   .container {
     justify-content: center;
@@ -116,7 +126,7 @@ p {
     text-align: center;
   }
 
-  .container .logo {
+  .header-container .logo {
     text-align: center;
   }
 
