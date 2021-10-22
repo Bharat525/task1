@@ -1,10 +1,8 @@
 /* CSS RESET */
 
-
 * {
   margin: 0px;
   padding: 0px;
-
 }
 
 body {
@@ -23,14 +21,12 @@ header {
   justify-content: space-between;
 }
 
-
-.logo{
+.logo {
   object-fit: cover;
 }
 
-.logo img{
+.logo img {
   width: 200px;
-  
 }
 
 .btn {
@@ -43,8 +39,6 @@ header {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-
-
 .container img {
   object-fit: cover;
   height: 40px;
@@ -54,11 +48,9 @@ header {
   text-align: center;
 }
 
-.heading h3{
-margin-top:10px;
-letter-spacing: 4px;
-
-
+.heading h3 {
+  margin-top: 10px;
+  letter-spacing: 4px;
 }
 
 .heading h2 {
@@ -72,10 +64,9 @@ letter-spacing: 4px;
 .heading2 {
   text-align: center;
 }
-.heading2 h2{
+.heading2 h2 {
   margin-top: 20px;
 }
-
 
 .heading2 p {
   line-height: 20%;
@@ -114,13 +105,21 @@ p {
 }
 
 @media screen and (max-width: 500px) {
-
-
-  .header-container button{
-    display: none;
+  .vdio iframe {
+    width: auto;
   }
 
- 
+  .header-container {
+    justify-content: center;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .header-container button {
+    display: none;
+  }
 
   .container {
     justify-content: center;
@@ -130,12 +129,6 @@ p {
     text-align: center;
   }
 
-  .header-container .logo {
-    text-align: center;
-  }
-
- 
-
   .heading2 p {
     line-height: 1.8ch;
   }
@@ -144,16 +137,12 @@ p {
     padding: 10px 20px;
   }
 
-  .img img{
+  .img img {
     display: none;
   }
-
-
 }
 
-.home {
-  background-image: url(/img/Union\ 1@1X.png);
-}
+
 
 .fromteam .img {
   text-align: center;
