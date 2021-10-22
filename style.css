@@ -1,8 +1,10 @@
+/* CSS RESET */
+
+
 * {
   margin: 0px;
   padding: 0px;
-  border: none;
-  outline: none;
+
 }
 
 body {
