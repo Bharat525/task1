@@ -58,7 +58,8 @@ header {
 
 .heading h3{
 margin-top:10px;
-margin-bottom: 10px;
+letter-spacing: 4px;
+
 
 }
 
@@ -73,9 +74,14 @@ margin-bottom: 10px;
 .heading2 {
   text-align: center;
 }
+.heading2 h2{
+  margin-top: 20px;
+}
+
 
 .heading2 p {
   line-height: 20%;
+  margin-top: 20px;
 }
 
 .vdio {
